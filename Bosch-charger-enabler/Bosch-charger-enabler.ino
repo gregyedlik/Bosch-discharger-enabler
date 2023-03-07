@@ -3,9 +3,6 @@
 #include <SPI.h>
 #include "mcp_can.h"
 
-#include <mcp_can.h>
-#include <SPI.h>
-
 const int SPI_CS_PIN = 17;              // CANBed CS pin selection
 unsigned char data[1] = {0};            // Data to transmit, invariant
 
